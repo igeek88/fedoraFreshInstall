@@ -1,0 +1,10 @@
+# Custom aliases performed on $(date) by fedoraFreshInstall.sh script.
+alias ll='ls -lah'
+alias rm='rm -vi'
+alias cp='cp -vi'
+alias mv='mv -vi'
+alias dmc='dnf makecache'
+alias dup='dnf -y update'
+alias dug='dnf -y upgrade'
+alias din='dnf -y install'
+alias dse='dnf search'
