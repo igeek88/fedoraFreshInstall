@@ -3,7 +3,9 @@
 sudo dnf makecache
 sudo dnf -y update
 sudo dnf -y upgrade
-sudo dnf -y install wget vim terminator curl sudo dnf-plugin-system-upgrade gpg keepass
+sudo dnf -y install \
+	wget vim terminator curl sudo dnf-plugin-system-upgrade gpg keepass kernel-devel kernel-headers gcc make dkms \
+	acpid libglvnd-glx libglvnd-opengl libglvnd-devel pkgconfig vdpauinfo libva-vdpau-driver libva-utils xclip gimp pwgen
 cp .bash_aliases ~/.bash_aliases
 cp .bashrc ~/.bashrc
 source ~/.bash_aliases ~/etc/.bashrc
