@@ -1,0 +1,3 @@
+" My personal vim config
+" This file should be placed on vimrc.local (recommended) or its content starting from line 2 appended into /etc/vim/vimrc.
+set background=dark nowrap syntax=on
